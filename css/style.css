@@ -1,0 +1,32 @@
+@import url('components/avatar.css');
+@import url('components/button.css');
+@import url('components/container.css');
+
+.banner {
+  background-image: url("../images/bbbb.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.banner-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.banner-container h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.banner-container .btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
